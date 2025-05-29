@@ -1,0 +1,26 @@
+header {
+    background: linear-gradient(to right, midnightblue, darkblue, mediumblue, royalblue, steelblue);
+    color: floralwhite;
+    padding: 1%;
+}
+nav {
+    width: 500px;
+}
+nav li {
+    display:inline-block;
+    text-decoration: none;
+    padding: 1%;
+}
+nav a {
+    color: floralwhite;
+    text-decoration: none;
+    padding: 2px 3px;
+}
+#headerContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.active {
+    border: dotted silver 2px;
+    color: silver;
+}

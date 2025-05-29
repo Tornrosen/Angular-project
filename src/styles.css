@@ -2,10 +2,12 @@ body {
     background-color: ghostwhite;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: italic;
+    margin: 0 auto;
     overflow-x: hidden;
 }
 
 main {
     background-color: gainsboro;
-    color: firebrick;
+    color: blue;
+    padding: 1%;
 }
