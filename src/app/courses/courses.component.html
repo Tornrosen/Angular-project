@@ -1,1 +1,16 @@
 <h2>Kurser</h2>
+
+@if(courseList.length===0){
+    <p>Inga kurser att visa.</p>
+}
+
+<table> 
+    <thead>
+    <tr><th>Kurskod</th><th>Kursnamn</th><th>Poäng</th><th>Ämne</th><th>Progression</th><th>Länk till kursplan</th></tr> </thead>
+   <tbody><tr *ngFor= "let course of courseList"> <td>{{course.courseCode}} </td>
+    <td> {{course.courseName}} </td>
+    <td> {{course.points}}</td>
+    <td> {{course.subject}}</td>
+    <td> {{course.progression}} </td>
+    <td><a href="{{course.syllabus}}"> {{course.syllabus}} </a></td></tr></tbody>
+</table>
